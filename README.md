@@ -18,6 +18,7 @@ Para inicializar o ambiente básico você pode consultar o script [init](script/
 
 ## Documentos
 
-|          Número          |   Descrição   |
-| :----------------------: | :-----------: |
-| [DOC001](docs/DOC001.md) | Ideia Inicial |
+|          Número          |              Descrição               |
+| :----------------------: | :----------------------------------: |
+| [DOC001](docs/DOC001.md) |            Ideia Inicial             |
+| [DOC002](docs/DOC002.md) | Explicação do arquivo script/init.sh |

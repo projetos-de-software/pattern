@@ -3,6 +3,7 @@
 #
 #   Script de inicialização de um repositório padrão
 #   Leia o Readme se você quiser saber quais são todas as configurações possíveis
+#   DOC002 - documento de explicação em docs/DOC002.md
 #   @author Marcos de Lima Carlos   <marcos@projetosdesoftware.com.br>
 #   @version 1.0
 #
@@ -10,8 +11,11 @@
 # O comando abaixo inicializa o repositório com todas as opções padrão
 yarn init -y 
 
-#
-## instalação husky
+## Instalação do commitlint
+yarn add -D @commitlint/{cli,config-conventional}
+echo "module.exports = { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
+
+# instalação husky
 yarn add -D husky
 npx husky init 
 rm -rf .husky/pre-commit
