@@ -1,0 +1,8 @@
+{
+    "cSpell.language": "en,pt,pt-BR",
+    "workbench.colorCustomizations": {
+        "editorInfo.foreground": "#ff0000"
+    },
+    "insertDateString.formatDate": "DD-MM-YYYY",
+    "markdown-preview-enhanced.plantumlServer": "https://kroki.io/plantuml/svg/",
+}

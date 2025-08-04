@@ -18,6 +18,6 @@ Para inicializar o ambiente básico você pode consultar o script [init](script/
 
 ## Documentos
 
-| Número |   Descrição   |
-| :----: | :-----------: |
-| DOC001 | Ideia Inicial |
+|          Número          |   Descrição   |
+| :----------------------: | :-----------: |
+| [DOC001](docs/DOC001.md) | Ideia Inicial |
