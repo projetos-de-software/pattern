@@ -1,0 +1,29 @@
+{
+  "name": "pattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:projetos-de-software/pattern.git",
+  "author": "Marcos de Lima Carlos <mlimacarlos@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "standard-version": "^9.5.0"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "commit": "git-cz",
+    "release": "standard-version",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
